@@ -1,13 +1,13 @@
 # Predictive-Analysis-of-ECB-Violations
 
-Predictive analysis on 5 years of DOB ECB Violations, 2010-2015. Methods included market basket and social network analysis. The project research goals and results are in the above memo. The Ipython notebook is used for data cleaning and creating output to interpret the data, the R script is for market basket modelling.
+Predictive analysis on 5 years of DOB ECB Violations, 2010-2015. Methods included market basket and social network analysis. The project research goals and results are in the above memo. The Jupyter notebook is used for data cleaning and creating output to interpret the data, the R script is for market basket modelling.
 
 #Market Basket Analysis
 The analysis produced over 200 association rules, below are two that were most useful:
 
 Rule 1: Confidence: 0.92 Support: 0.00347 
 155: FAIL MAINTAIN BLDG IN COMPLIANT MANNER:LACK OF AUTOMATIC SPRINKLERS
-189: FAIL TO MAIMTAIN REQUIRED NUMBER OF MEANS OF EGRESS FOR EVERY FLOOR
+189: FAIL TO MAINTAIN REQUIRED NUMBER OF MEANS OF EGRESS FOR EVERY FLOOR
 =>106k:ILLEGAL ACTIVITY
 
 Rule 2: Confidence: 0.91 Support: 0.0065 
