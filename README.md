@@ -2,7 +2,7 @@
 
 Predictive analysis on 5 years of DOB ECB Violations, 2010-2015. Methods included market basket and social network analysis. The project research goals and results are in the above memo. The Jupyter notebook is used for data cleaning and creating output to interpret the data, the R script is for market basket modelling.
 
-#Market Basket Analysis
+## Market Basket Analysis
 The analysis produced over 200 association rules, below are two that were most useful:
 
 Rule 1: Confidence: 0.92 Support: 0.00347 
@@ -19,7 +19,7 @@ Rule 1 states that a failure to maintain automatic sprinklers and an egress for 
 
 
 
-#Social Network Analysis
+## Social Network Analysis
 
 The below graphs shows the network with edge thickness displayed and a cluster related to safety for January 2015. The January results show strong ties between 4 pairs of violations, these pairs of violations have very thick edge widths.
 
